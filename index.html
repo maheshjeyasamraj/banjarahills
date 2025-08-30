@@ -1,0 +1,1610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+  <title>TONI & GUY | Premium Salon & Hair Studio Tellapur, Hyderabad</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.png" type="image/x-icon" />
+
+  <!-- Google Fonts: Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Apply Montserrat to entire site -->
+  <style>
+    html, body {
+      font-family: 'Montserrat', sans-serif;
+    }
+    * {
+      font-family: inherit;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<!-- Top Bar -->
+<div class="top-bar">
+  <div class="social-icons">
+    <a href="https://www.instagram.com/toniandguybanjarahills03/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="tel:+919715755552"><i class="fas fa-phone"></i></a>
+    <a href="mailto:info@toniandguybanjara.com"><i class="fas fa-envelope"></i></a>
+  </div>
+  <div class="location">
+    <a href="https://share.google/6IkQsHq8akWiQCUAY" target="_blank"> BANJARA HILLS, HYDERABAD
+    </a>
+</div>
+</div>
+
+<!-- Navigation -->
+<div class="navbar-custom">
+  <div class="logo" onclick="scrollToTop()" style="cursor: pointer;">
+    <img src="Logo.jpg" alt="TONI&GUY" /> 
+  </div>
+  <button class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
+  <nav id="navLinks">
+    <a href="#about">About</a>
+    <a href="#service">Services</a>
+    <a href="#bridal">Bridal Beauty</a>
+    <a href="#hair">Hair</a>
+    <a href="#" id="contactBtn">Contact</a>
+  </nav>
+</div>
+
+
+
+<!-- Hero Slider -->
+<section id="heroSection">
+  <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+    <div class="carousel-inner">
+
+      <!-- Slides -->
+      <div class="carousel-item active" style="background-image: url('heros1.webp');">
+        <div class="hero-overlay"></div>
+        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+          <h1 class="animate__animated animate__fadeInDown">Welcome to<br> Toni & Guy Banjara Hills</h1>
+          <p class="animate__animated animate__fadeInUp">Step into style & luxury like never before!</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="background-image: url('heros2.webp');">
+        <div class="hero-overlay"></div>
+        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+          <h1 class="animate__animated animate__fadeInDown">Hair Colour</h1>
+          <p class="animate__animated animate__fadeInUp">Transform your look with expert hair colouring Vibrant, trendy & flawless shades tailored for you!</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="background-image: url('heros3.webp');">
+        <div class="hero-overlay"></div>
+        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+          <h1 class="animate__animated animate__fadeInDown">Keratin</h1>
+          <p class="animate__animated animate__fadeInUp">Say goodbye to frizz! Smooth, shiny & manageable hair with our premium Keratin treatment!</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="background-image: url('heros4.webp');">
+        <div class="hero-overlay"></div>
+        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+          <h1 class="animate__animated animate__fadeInDown">Pedi & Mani</h1>
+          <p class="animate__animated animate__fadeInUp">Relax & refresh with our luxury pedicure & manicure services, because your hands & feet deserve care too!</p>
+        </div>
+      </div>
+
+      </div>
+          <div class="carousel-item" style="background-image: url('heros5.webp');">
+        <div class="hero-overlay"></div>
+        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+          <h1 class="animate__animated animate__fadeInDown">Bridal Makeup</h1>
+          <p class="animate__animated animate__fadeInUp">Walk down the aisle with confidence, our bridal makeup experts make your big day truly unforgettable!</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="background-image: url('heros6.webp');">
+        <div class="hero-overlay"></div>
+        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+          <h1 class="animate__animated animate__fadeInDown">Facial</h1>
+          <p class="animate__animated animate__fadeInUp">Glow like never before! Indulge in rejuvenating facials for radiant & flawless skin!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Arrows -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+
+
+
+<section id="about" class="brand-section">
+  <div class="brand-container">
+    <!-- Text Content -->
+    <div class="brand-text">
+      <h2>Step into the World of Toni & Guy. Now in Banjara Hills, Hyderabad</h2>
+      <p>
+        We bring world-class hairdressing and beauty services to your neighborhood with the finesse and quality Toni&Guy is known for globally.
+        From haircuts to hair colour, smoothing to bridal services, every detail is delivered with expertise and care.
+      </p>
+      <p class="highlight">We’re not just a salon! We’re an experience.</p>
+      <p>
+        Our mission is to make every client walk out feeling 
+        confident, rejuvenated and looking their absolute best.
+      </p>
+
+      <!-- ✅ Book Now Button (WhatsApp) -->
+         <a class="bridal-btn" href="https://wa.me/919715755552?text=Interested%20in%20Gold%20Membership" target="_blank" rel="noopener" aria-label="Book now on WhatsApp">
+          BOOK NOW
+        </a>
+    </div>
+
+    <!-- Visual Side -->
+    <div class="brand-visual" id="visualImg">
+      <img src="brand-bg.gif" alt="Brand Visual" />
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- OUR EXPERTISE Section -->
+<section id="service" class="expertise-section">
+  <div class="expertise-heading">
+    <h2>Our Expertise</h2>
+    <p>Discover the finest in international beauty and haircare services</p>
+  </div>
+
+  <div class="split-categories">
+    <div class="category-panel" data-bg="body.webp">
+      <div class="overlay">
+        <h3>Bridal</h3>
+        <div class="hover-info">
+          <p>Let our international stylists craft your dream bridal look from elegant updos to flawless makeup and radiant hair treatments.</p>
+          <a href="https://wa.me/919715755552?text=Hello!%20I'm%20interested%20in%20a%20Hair%20Consultation." class="book-now-btn">Book Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="category-panel" data-bg="hair.webp">
+      <div class="overlay">
+        <h3>Hair</h3>
+        <div class="hover-info">
+          <p>Precision cuts, colour, keratin & advanced styling by internationally trained professionals.</p>
+          <a href="https://wa.me/919715755552?text=Hello!%20I'm%20interested%20in%20a%20Hair%20Consultation." class="book-now-btn">Book Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="category-panel" data-bg="facial.webp">
+      <div class="overlay">
+        <h3>Facial</h3>
+        <div class="hover-info">
+          <p>Brightening facials, anti-aging treatments & luxury skin care to make you glow from within.</p>
+          <a href="https://wa.me/919715755552?text=Hello!%20I'm%20interested%20in%20a%20Hair%20Consultation." class="book-now-btn">Book Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="category-panel" data-bg="makeup.webp">
+      <div class="overlay">
+        <h3>Makeup</h3>
+        <div class="hover-info">
+          <p>Party & bridal makeup by expert artists – for flawless, camera-ready skin & features.</p>
+          <a href="https://wa.me/919715755552?text=Hello!%20I'm%20interested%20in%20a%20Hair%20Consultation." class="book-now-btn">Book Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="category-panel" data-bg="special.jpeg">
+      <div class="overlay">
+        <h3>Special Offers</h3>
+        <div class="hover-info">
+          <p>Exclusive launch deals, seasonal offers & premium packages for your transformation.</p>
+          <a href="https://wa.me/919715755552?text=Hello!%20I'm%20interested%20in%20a%20Hair%20Consultation." class="book-now-btn">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ⭐ BRIDAL BEAUTY SECTION -->
+  <section id="bridal" class="bridal-section">
+    <div class="bridal-container">
+
+      <!-- Image Slider -->
+      <div class="bridal-slider-wrapper">
+        <div class="bridal-image-slider" id="bridalSlider" aria-hidden="false">
+          <img src="bridal1.webp" alt="Bridal Look 1" />
+          <img src="bridal2.webp" alt="Bridal Look 2" />
+          <img src="bridal3.webp" alt="Bridal Look 3" />
+          <img src="bridal4.webp" alt="Bridal Look 4" />
+          <img src="bridal5.webp" alt="Bridal Look 5" />
+        </div>
+      </div>
+
+      <!-- Text Content -->
+      <div class="bridal-content">
+        <h2>Bridal Beauty Perfected</h2>
+        <p>
+          Book your wedding consultation today. Let our international stylists craft your dream bridal look
+          elegant updos, flawless makeup and radiant hair treatments tailored to you.
+        </p>
+        <a class="bridal-btn" href="https://wa.me/919715755552?text=Interested%20in%20Gold%20Membership" target="_blank" rel="noopener" aria-label="Book now on WhatsApp">
+          BOOK NOW
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+  <!-- ✅ Section: Hair Elegance Refined -->
+<section id="hair" class="hair-section">
+  <!-- Text -->
+  <div class="hair-content">
+    <h2>Hair Elegance Refined</h2>
+    <p>
+      Step into a world of tailored cuts, precision styling, and radiant color. Let our international
+      stylists transform your hair with expert techniques & luxury treatments. From timeless cuts to
+      trend-setting balayage, every session is crafted to suit your unique beauty.
+    </p>
+    <a class="hair-btn" href="https://wa.me/919715755552?text=Hello!%20I'm%20interested%20in%20a%20Hair%20Consultation.">BOOK YOUR HAIR CONSULTATION</a>
+    <span class="hair-note">Because every strand deserves sophistication.</span>
+  </div>
+
+  <!-- Cards -->
+  <div class="hair-card-slider">
+    <div class="hair-card-wrapper" id="hairCardWrapper"></div>
+  </div>
+</section>
+
+
+
+
+<style>
+/* ---------- CUSTOM FONT ---------- */
+@font-face {
+  font-family: 'CustomFont';
+  src: url('/mnt/data/395cb305-7c9d-4921-9480-24be640b7241.png') format('truetype'); /* replace if actual font file is .ttf or .woff */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ---------- VARIABLES ---------- */
+:root {
+  --bg: #fff;
+  --text:#111;
+  --muted:#666;
+  --card-shadow: 0 6px 18px rgba(0,0,0,.08);
+}
+
+/* ---------- GALLERY STYLES ---------- */
+.price-gallery {
+  background-color: var(--bg);
+  color: var(--text);
+  padding: 80px 20px 50px;
+  font-family: 'CustomFont', sans-serif;
+}
+.gallery-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.gallery-header h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.gallery-header p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* ---------- GRID ---------- */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 450px;
+  gap: 15px;
+}
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.4s ease-in-out;
+}
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease-in-out;
+}
+.gallery-item:hover img,
+.gallery-item:focus-within img {
+  transform: scale(1.08);
+}
+
+/* ---------- PREMIUM GLASS ---------- */
+.premium-glass {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 0 0 16px 16px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.35s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.gallery-item:hover .premium-glass,
+.gallery-item:focus-within .premium-glass {
+  opacity: 1;
+  transform: translateY(0);
+}
+.price-text {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.service-name { font-size: 14px; color: #111; text-transform: uppercase; letter-spacing:1px; font-family: 'CustomFont', sans-serif; }
+.service-price { font-size: 18px; font-weight:700; color: #111; font-family: 'CustomFont', sans-serif; }
+
+.book-btn {
+  background: #111;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: 'CustomFont', sans-serif;
+  transition: all 0.2s ease;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+.book-btn:hover {
+  box-shadow: 0 10px 24px rgba(0,0,0,0.14);
+  transform: translateY(-2px);
+}
+
+
+@media (max-width: 1200px) { .gallery-grid { grid-template-columns: repeat(3, 1fr); grid-auto-rows: 400px; } }
+@media (max-width: 900px) { .gallery-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 350px; } }
+@media (max-width: 600px) { .gallery-grid { grid-template-columns: 1fr; grid-auto-rows: 300px; } }
+@media (max-width: 480px) {
+  .gallery-header h2 { font-size: 26px; }
+  .gallery-header p { font-size: 14px; }
+  .service-name { font-size: 13px; }
+  .service-price { font-size: 16px; }
+  .book-btn { padding: 8px 14px; font-size: 13px; }
+}
+</style>
+
+<section class="price-gallery" aria-label="Price gallery">
+  <div class="gallery-header">
+    <h2>GALLERY</h2>
+    <p>Luxury that Transforms, Tailored for You</p>
+  </div>
+  <div class="gallery-grid">
+    <div class="gallery-item" tabindex="0" data-service="Haircut" data-price="₹899">
+      <img src="Interior.webp" alt="Haircut">
+      <div class="hover-price premium-glass">
+        <div class="price-text"><strong>Welcome</strong></div>
+
+      </div>
+    </div>
+    <div class="gallery-item" tabindex="0" data-service="Hair Spa" data-price="₹1499">
+      <img src="Interior1.webp" alt="Hair Spa">
+      <div class="hover-price premium-glass">
+        <div class="price-text"><strong>To</strong></div>
+      </div>
+    </div>
+    <div class="gallery-item" tabindex="0" data-service="Hair Color" data-price="₹2499">
+      <img src="Interior2.webp" alt="Hair Color">
+      <div class="hover-price premium-glass">
+        <div class="price-text"><strong>Toni & Guy</strong></div>        
+      </div>
+    </div>
+    <div class="gallery-item" tabindex="0" data-service="Keratin" data-price="₹3999">
+      <img src="Interior3.webp" alt="Keratin">
+      <div class="hover-price premium-glass">
+        <div class="price-text"><strong>Banjara Hills</strong></div>    
+              </div>
+    </div>
+    <div class="gallery-item" tabindex="0" data-service="Styling" data-price="₹999">
+      <img src="Interior4.webp" alt="Styling">
+      <div class="hover-price premium-glass">
+        <div class="price-text"><span class="service-name"></span><span class="service-price">Styling</span></div>
+
+      </div>
+    </div>
+    <div class="gallery-item" tabindex="0" data-service="Hair Wash" data-price="₹499">
+      <img src="Interior5.webp" alt="Hair Wash">
+      <div class="hover-price premium-glass">
+        <div class="price-text"><span class="service-name"></span><span class="service-price">Hair Wash</span></div>
+
+      </div>
+    </div>
+    <div class="gallery-item" tabindex="0" data-service="Facial" data-price="₹1099">
+      <img src="Interior6.webp" alt="Facial">
+      <div class="hover-price premium-glass">
+        <div class="price-text"><span class="service-name"></span><span class="service-price">Facial</span></div>
+      </div>
+    </div>
+    <div class="gallery-item" tabindex="0" data-service="Bridal Makeup" data-price="₹6999">
+      <img src="Interior7.webp" alt="Bridal Makeup">
+      <div class="hover-price premium-glass">
+        <div class="price-text"><span class="service-name"></span><span class="service-price">Bridal</span></div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<style>
+:root{
+  --gold:#d4af37;
+  --text:#111;
+  --muted:#666;
+  --shadow: 0 12px 40px rgba(0,0,0,.2);
+  --btn-hover:#b38f2e;
+}
+*{box-sizing:border-box;}
+body{
+  margin:0;
+  font-family:'Open Sans',sans-serif;
+  background:#fff;
+  color:var(--text);
+  scroll-behavior: smooth;
+}
+
+/* Section Layout */
+.premium-price-section{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:flex-start;
+  gap:40px;
+  max-width:1200px;
+  margin:auto;
+  padding:50px 20px;
+}
+
+.price-details{
+  flex:1 1 45%;
+}
+
+.price-details h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 700;
+  border-bottom:2px solid var(--gold);
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.price-item{
+  position:relative;
+  margin-bottom:25px;
+  padding-bottom:15px;
+  border-bottom:1px solid #eee;
+  text-align:left;
+}
+.price-item h3{
+  margin:0;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  font-size:18px;
+  font-weight:600;
+}
+.price-item span{
+  font-size:18px;
+  font-weight:700;
+  color:var(--gold);
+  transition:opacity .3s ease;
+}
+.price-item p{
+  font-size:14px;
+  color:var(--muted);
+  margin:8px 0 0;
+  line-height:1.5;
+}
+
+.book-btn{
+  position:absolute;
+  right:0;
+  top:0;
+  opacity:0;
+  pointer-events:none;
+  background:var(--gold);
+  color:#fff;
+  border:none;
+  padding:8px 16px;
+  border-radius:6px;
+  font-size:14px;
+  cursor:pointer;
+  transition:opacity .3s ease,transform .2s ease, box-shadow .2s ease;
+  box-shadow:0 4px 15px rgba(0,0,0,0.3);
+}
+.book-btn:active{transform:scale(.98)}
+
+@media (min-width:786px){
+  .price-item:hover span{opacity:0}
+  .price-item:hover .book-btn{opacity:1;pointer-events:auto}
+}
+
+/* Image Section */
+.price-image{
+  flex:1 1 45%;
+  position:relative;
+  overflow:hidden;
+  border-radius:12px;
+  box-shadow:var(--shadow);
+  min-height:360px;
+  background:#f7f7f7;
+}
+.price-image img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  opacity:0;
+  transition:opacity 0.8s ease-in-out;
+}
+.price-image img.active{
+  opacity:1;
+}
+
+/* Mobile adjustments */
+@media (max-width:768px){
+  .premium-price-section{
+    flex-direction:column;
+    padding:30px 15px;
+  }
+  .price-details, .price-item{text-align:center}
+  .price-item h3{
+    flex-direction:column;
+    gap:6px;
+    font-size:20px;
+    font-weight:700;
+  }
+  .price-item span{
+    display:block;
+    margin:6px 0;
+    font-size:18px;
+    color:var(--gold);
+  }
+  .price-item p{
+    margin:6px 0;
+    font-size:16px;
+    color:var(--muted);
+    line-height:1.6;
+  }
+  .book-btn{
+    position:static;
+    display:inline-block;
+    margin-top:12px;
+    opacity:1;
+    pointer-events:auto;
+    width:100%;
+    max-width:250px;
+    padding:10px 0;
+    font-size:16px;
+    border-radius:8px;
+    font-weight:600;
+  }
+  .price-image{
+    width:100%;
+    min-height:250px;
+    margin-top:25px;
+  }
+}
+
+/* Modal Base */
+.modal{
+  display:none;
+  position:fixed;
+  z-index:999;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  backdrop-filter: blur(6px);
+  background-color: rgba(0,0,0,0.4);
+  padding:0;
+  opacity:0;
+  transform:scale(0.95);
+  transition: all 0.3s ease;
+}
+.modal.show{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  opacity:1;
+  transform:scale(1);
+}
+
+/* Modal Content */
+.modal-content{
+  background:#fff;
+  border-radius:12px;
+  padding:20px 20px 25px;
+  width:90%;
+  max-width:360px;
+  position:relative;
+  box-shadow:0 12px 30px rgba(0,0,0,0.25);
+  text-align:center;
+}
+
+/* Close Button */
+.close{
+  position:absolute;
+  right:15px;
+  top:15px;
+  font-size:22px;
+  font-weight:bold;
+  color:#555;
+  cursor:pointer;
+}
+.close:hover{color:#000;}
+
+/* Modal Heading */
+.modal-content h2{
+  margin:0 0 10px;
+  font-size:20px;
+  font-weight:700;
+  color:#111;
+}
+
+/* Selected Service Text */
+#selectedServiceText{
+  margin:0 0 15px;
+  font-size:14px;
+  color:#555;
+}
+
+/* Form Inputs */
+#bookingFormElement input{
+  width:100%;
+  padding:12px 10px;
+  margin-bottom:12px;
+  border:1px solid #ccc;
+  border-radius:8px;
+  font-size:14px;
+  outline:none;
+  transition: all 0.3s ease;
+}
+#bookingFormElement input:focus{
+  border-color:#000;
+  box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Submit Button */
+#bookingFormElement button{
+  width:100%;
+  padding:12px;
+  background:#000;
+  color:#fff;
+  border:none;
+  border-radius:8px;
+  font-size:15px;
+  font-weight:700;
+  cursor:pointer;
+  transition:all 0.3s ease;
+}
+#bookingFormElement button:hover{
+  background:#333;
+}
+</style>
+
+
+<section class="premium-price-section">
+  <div class="price-details">
+    <h2>Service Pricelist</h2>
+
+    <div class="price-item">
+      <h3>Style Director <span>₹1700</span></h3>
+      <p>Shampoo and condition with scalp massage, cut, finish and style.</p>
+      <button class="book-btn" type="button" onclick="openModal('Style Director')">Book Now</button>
+    </div>
+
+    <div class="price-item">
+      <h3>Creative Director <span>₹1350</span></h3>
+      <p>Pre-shave consultation, exfoliating facial scrub, soothing hot towels.</p>
+      <button class="book-btn" type="button" onclick="openModal('Creative Director')">Book Now</button>
+    </div>
+
+    <div class="price-item">
+      <h3>Top Stylist <span>₹900</span></h3>
+      <p>Style consultation, beard maintenance, shaping, tidying and finishing.</p>
+      <button class="book-btn" type="button" onclick="openModal('Top Stylist')">Book Now</button>
+    </div>
+
+    <div class="price-item">
+      <h3>Senior Stylist <span>₹700</span></h3>
+      <p>Style consultation, beard maintenance, shaping, tidying and finishing.</p>
+      <button class="book-btn" type="button" onclick="openModal('Senior Stylist')">Book Now</button>
+    </div>
+
+    <div class="price-item">
+      <h3>Stylist <span>₹600</span></h3>
+      <p>Style consultation, beard maintenance, shaping, tidying and finishing.</p>
+      <button class="book-btn" type="button" onclick="openModal('Stylist')">Book Now</button>
+    </div>
+  </div>
+
+  <div class="price-image" id="priceImage">
+    <img src="price-image.jpg" alt="Premium Service 1" class="active">
+    <img src="price-image2.jpg" alt="Premium Service 2">
+    <img src="price-image3.jpg" alt="Premium Service 3">
+  </div>
+</section>
+
+<!-- Modal Form -->
+<div id="bookingModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h2>Book Your Service</h2>
+    <p id="selectedServiceText">Selected: </p>
+    <form id="bookingFormElement">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="tel" name="phone" placeholder="Your phone number" required>
+      <input type="text" name="notes" placeholder="Preferred date/time or notes (optional)">
+      <button type="submit">Send Request</button>
+    </form>
+  </div>
+</div>
+
+<script>
+/* Image Rotation */
+(function(){
+  const imgs = document.querySelectorAll('#priceImage img');
+  if(!imgs.length) return;
+  let idx = 0;
+  imgs[idx].classList.add('active');
+  if (imgs.length < 2) return;
+  setInterval(() => {
+    imgs[idx].classList.remove('active');
+    idx = (idx + 1) % imgs.length;
+    imgs[idx].classList.add('active');
+  }, 2000);
+})();
+
+/* Modal Functions */
+const modal = document.getElementById('bookingModal');
+const selectedText = document.getElementById('selectedServiceText');
+
+function openModal(service){
+  selectedText.textContent = `Selected: ${service}`;
+  modal.classList.add('show');
+}
+
+function closeModal(){
+  modal.classList.remove('show');
+}
+window.onclick = function(event){
+  if(event.target == modal){ closeModal(); }
+}
+
+/* WhatsApp Booking Submission */
+document.getElementById('bookingFormElement').addEventListener('submit', function(e){
+  e.preventDefault();
+  const name = this.name.value.trim();
+  const phone = this.phone.value.trim();
+  const notes = this.notes.value.trim();
+  const service = selectedText.textContent.replace('Selected: ', '');
+  if(!name || !phone) return alert('Please fill all required fields.');
+  
+  const message = `New Booking Request:%0AName: ${name}%0APhone: ${phone}%0AService: ${service}%0ANotes: ${notes}`;
+  const whatsappURL = `https://wa.me/919715755552?text=${message}`;
+  window.open(whatsappURL, '_blank');
+  closeModal();
+});
+</script>
+
+
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #fff;
+      color: #111;
+    }
+
+    /* 🌐 CONTACT SECTION */
+    .contact-section-white {
+      background: #fff;
+      padding: 80px 20px;
+    }
+
+    .contact-container {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* ✨ Luxury Glassmorphism Card */
+    .contact-card {
+      flex: 1 1 46%;
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(15px);
+      border: 1px solid rgba(0,0,0,0.08);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      opacity: 0;
+      transform: translateY(60px);
+    }
+
+    .contact-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+    }
+
+    .contact-card.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .contact-card h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      margin-bottom: 15px;
+      color: #111;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    }
+
+    .subtext {
+      font-size: 15px;
+      color: #555;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .input-wrapper {
+      position: relative;
+    }
+
+    .input-wrapper input,
+    .input-wrapper textarea {
+      width: 100%;
+      padding: 14px 16px;
+      background: rgba(255,255,255,0.2);
+      border: 1px solid rgba(0,0,0,0.1);
+      border-radius: 12px;
+      font-size: 14px;
+      color: #111;
+      transition: all 0.3s ease;
+    }
+
+    .input-wrapper input:focus,
+    .input-wrapper textarea:focus {
+      border: 1px solid #000;
+      background: rgba(255,255,255,0.3);
+    }
+
+    .input-wrapper input::placeholder,
+    .input-wrapper textarea::placeholder {
+      opacity: 0;
+    }
+
+    .input-wrapper label {
+      position: absolute;
+      top: 50%;
+      left: 16px;
+      transform: translateY(-50%);
+      color: #888;
+      font-size: 13px;
+      transition: all 0.3s;
+      pointer-events: none;
+      background: rgba(255,255,255,0.1);
+      padding: 0 5px;
+      border-radius: 4px;
+    }
+
+    .input-wrapper input:focus + label,
+    .input-wrapper input:not(:placeholder-shown) + label,
+    .input-wrapper textarea:focus + label,
+    .input-wrapper textarea:not(:placeholder-shown) + label {
+      top: -10px;
+      left: 12px;
+      font-size: 11px;
+      color: #000;
+      background: rgba(255,255,255,0.2);
+    }
+
+    form button {
+      background: #111;
+      color: #fff;
+      padding: 14px;
+      font-size: 14px;
+      font-weight: 600;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    form button:hover {
+      background: #222;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+    }
+
+    /* ✨ Map Block with Neon Glow */
+    .map-block {
+      padding: 0;
+      height: 450px;
+      border-radius: 20px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 0 25px rgba(0,0,0,0.1), 0 0 10px rgba(0,0,0,0.05) inset;
+      border: 1px solid rgba(0,0,0,0.08);
+      transition: all 0.3s ease;
+    }
+
+    .map-block iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,255,255,0.15) inset;
+      transition: all 0.3s ease;
+    }
+
+    .map-block:hover iframe {
+      box-shadow: 0 0 25px rgba(0,255,255,0.25) inset;
+      transform: scale(1.02);
+    }
+
+    /* 📱 MOBILE RESPONSIVE */
+    @media (max-width: 768px) {
+      .contact-container {
+        flex-direction: column;
+      }
+
+      .contact-card {
+        flex: 1 1 100%;
+        padding: 30px;
+      }
+
+      .map-block {
+        height: 300px;
+      }
+    }
+  </style>
+
+
+  <!-- 🌐 CONTACT SECTION -->
+  <section id="locate" class="contact-section-white">
+    <div class="contact-container">
+
+      <!-- Contact Form -->
+      <div class="contact-card animate-fade-up">
+        <h2><i class="fas fa-paper-plane"></i> Let’s Connect</h2>
+        <p class="subtext">Have a question or ready to book? Our expert stylists are ready to create your perfect look. Reach out and experience world-class service today.</p>
+
+        <form id="premiumContactForm" autocomplete="off">
+          <div class="input-wrapper">
+            <input type="text" name="name" required placeholder=" " />
+            <label>Full Name</label>
+          </div>
+          <div class="input-wrapper">
+            <input type="tel" name="phone" required placeholder=" " />
+            <label>Phone Number</label>
+          </div>
+          <div class="input-wrapper">
+            <input type="email" name="email" required placeholder=" " />
+            <label>Email Address</label>
+          </div>
+          <div class="input-wrapper">
+            <textarea name="message" rows="3" required placeholder=" "></textarea>
+            <label>Your Message</label>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      <!-- Google Map Block -->
+       <div class="contact-card map-block animate-fade-up">
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.736522511785!2d78.43372057493562!3d17.424427583469033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97839d2ab1ab%3A0x3709749fb94e22e5!2sToni%26Guy%20Hairdressing%20-%20Banjara%20Hills%20Road%20No.%203!5e0!3m2!1sen!2sin!4v1756557239529!5m2!1sen!2sin" 
+        width="100%" 
+        height="400" 
+        style="border:0; border-radius: 12px;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- 🌐 SCRIPT -->
+  <script>
+    document.getElementById("premiumContactForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      alert("Thanks! We'll get in touch soon.");
+      this.reset();
+    });
+
+    const animated = document.querySelectorAll('.animate-fade-up');
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.2 });
+
+    animated.forEach(el => io.observe(el));
+  </script>
+
+
+<!-- 🌐 LUXURY FOOTER SECTION -->
+<footer class="tg-footer" id="tgFooter">
+  <div class="tg-footer-overlay"></div>
+  <div class="tg-footer-glass fade-in-on-scroll">
+
+    <!-- Left -->
+    <div class="tg-footer-left">
+      <h2 class="tg-footer-brand">TONI&GUY <br><span>BANJARA HILLS</span></h2>
+      <p><i class="fas fa-map-marker-alt"></i> <a href="https://share.google/bTYSs6zpKxiWfWxCl" target="_blank">Banjara Hills, Hyderabad</a></p>
+      <p><i class="fa-solid fa-phone"></i> <a href="tel:+919715755552">+91 97157 55552</a></p>
+      <p><i class="fas fa-envelope"></i> <a href="mailto:tellapur@toniandguy.in">tellapur@toniandguy.in</a></p>
+      <p><i class="fas fa-clock"></i> 09:00 AM – 09:00 PM (All Days)</p>
+    </div>
+
+    <!-- Right -->
+    <div class="tg-footer-right">
+      <h3>Follow Us</h3>
+      <div class="tg-socials">
+        <a href="https://www.instagram.com/toniandguytellapur/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/p/Toniguy-Tellapur-61574831822244/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://share.google/ALayEatBJR5xuYXa4" target="_blank"><i class="fab fa-google"></i></a>
+      </div>
+      <p class="tg-copy">© 2025 Toni&Guy Tellapur. All Rights Reserved.</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- 🌟 FOOTER STYLE -->
+<style>
+  .tg-footer {
+    position: relative;
+    background: url('footer-bg.webp') center center/cover no-repeat;
+    padding: 100px 20px 70px;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    color: #fff;
+  }
+
+  .tg-footer-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+
+  .tg-footer-glass {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    box-shadow: 0 10px 50px rgba(255, 255, 255, 0.05);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 1s ease;
+  }
+
+  .tg-footer-glass.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .tg-footer-left,
+  .tg-footer-right {
+    flex: 1 1 45%;
+    min-width: 280px;
+  }
+
+  .tg-footer-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .tg-footer-brand span {
+    font-weight: 300;
+    color: #ccc;
+  }
+
+  .tg-footer-left p,
+  .tg-footer-left a {
+    font-size: 16px;
+    color: #ddd;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .tg-footer-left a:hover {
+    color: #fff;
+  }
+
+  .tg-footer-left i {
+    color: #e0e0e0;
+  }
+
+  .tg-footer-right h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .tg-socials {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .tg-socials a {
+    font-size: 22px;
+    color: #aaa;
+    transition: all 0.3s ease;
+  }
+
+  .tg-socials a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
+  }
+
+  .tg-copy {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #aaa;
+  }
+
+  #scrollTopBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 12px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 999;
+    display: none;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.15);
+  }
+
+  #scrollTopBtn:hover {
+    background: #ccc;
+  }
+
+  /* ✅ MOBILE RESPONSIVE */
+  @media (max-width: 768px) {
+    .tg-footer-glass {
+      flex-direction: column;
+      text-align: center;
+      padding: 40px 25px;
+    }
+
+    .tg-footer-left,
+    .tg-footer-right {
+      flex: 1 1 100%;
+      margin-bottom: 30px;
+    }
+
+    .tg-footer-left p,
+    .tg-footer-left a {
+      justify-content: center;
+      font-size: 15px;
+    }
+
+    .tg-socials {
+      justify-content: center;
+    }
+
+    #scrollTopBtn {
+      right: 20px;
+      bottom: 20px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .tg-footer-brand {
+      font-size: 26px;
+    }
+
+    .tg-footer-left p,
+    .tg-footer-left a {
+      font-size: 14px;
+      flex-direction: row !important;
+      gap: 8px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .tg-footer-right h3 {
+      font-size: 18px;
+    }
+
+    .tg-copy {
+      font-size: 13px;
+    }
+
+    .tg-socials a {
+      font-size: 20px;
+    }
+  }
+</style>
+
+<!-- 🔁 FOOTER JS -->
+<script>
+  window.onscroll = function () {
+    const btn = document.getElementById("scrollTopBtn");
+    btn.style.display = (window.scrollY > 300) ? "block" : "none";
+  };
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  const footerObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    },
+    { threshold: 0.2 }
+  );
+
+  footerObserver.observe(document.querySelector(".tg-footer-glass"));
+</script>
+
+<!-- ✅ FONT AWESOME (if not already loaded globally) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+
+<!-- ✅ POPUP CONTACT OPTIONS -->
+<div id="contactPopup" class="popup-overlay">
+  <div class="popup-box">
+    <span class="close-popup" id="closePopup">&times;</span>
+    <h2>Get in Touch</h2>
+    <div class="contact-options">
+
+      <a href="https://wa.me/919715755552" target="_blank" class="contact-link">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </a>
+      <a href="tel:+919715755552" class="contact-link">
+        <i class="fa-solid fa-phone"></i> Call Us
+      </a>
+      <a href="mailto:tonuandgutbanjara.com" class="contact-link">
+        <i class="fas fa-envelope"></i> Email
+      </a>
+
+      <a href="https://share.google/bTYSs6zpKxiWfWxCl" target="_blank" class="contact-link">
+        <i class="fas fa-map-marker-alt"></i> Location
+      </a>
+
+      <a href="https://www.instagram.com/toniandguybanjarahills03/" target="_blank" class="contact-link">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+
+    </div>
+  </div>
+</div>
+
+<!-- ✅ CSS STYLES -->
+<style>
+  .popup-overlay {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popup-box {
+    background: #fff;
+    padding: 40px 30px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    animation: fadeIn 0.3s ease-in-out;
+    text-align: center;
+  }
+
+  .popup-box h2 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #111;
+  }
+
+  .contact-options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .contact-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+    background: #f1f1f1;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #111;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+
+  .contact-link i {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+
+  .contact-link:hover {
+    background: #000;
+    color: #fff;
+  }
+
+  .close-popup {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 26px;
+    cursor: pointer;
+    color: #999;
+  }
+
+  .close-popup:hover {
+    color: #000;
+  }
+
+  @keyframes fadeIn {
+    from {
+      transform: scale(0.95);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .popup-box {
+      padding: 30px 20px;
+    }
+
+    .popup-box h2 {
+      font-size: 20px;
+    }
+
+    .contact-link {
+      font-size: 15px;
+      padding: 12px;
+    }
+  }
+</style>
+
+<!-- ✅ JS FUNCTIONALITY -->
+<script>
+  const contactBtn = document.getElementById("contactBtn");
+  const contactPopup = document.getElementById("contactPopup");
+  const closePopup = document.getElementById("closePopup");
+
+  // Open popup
+  if (contactBtn) {
+    contactBtn.addEventListener("click", function (e) {
+      e.preventDefault();
+      contactPopup.style.display = "flex";
+    });
+  }
+
+  // Close popup
+  closePopup.addEventListener("click", function () {
+    contactPopup.style.display = "none";
+  });
+
+  // Close when clicking outside the popup
+  window.addEventListener("click", function (e) {
+    if (e.target === contactPopup) {
+      contactPopup.style.display = "none";
+    }
+  });
+</script>
+
+<!-- ✅ FONT AWESOME -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+
+
+
+<!-- ✅ WHATSAPP BUTTON: PULSE AFTER LANDING -->
+<a href="https://wa.me/919715755552" target="_blank" id="whatsappButton" class="whatsapp-float-left">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- ✅ CSS -->
+<style>
+  .whatsapp-float-left {
+    position: fixed;
+    left: 25px;
+    background: rgba(37, 211, 102, 0.25);
+    backdrop-filter: blur(12px);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 26px;
+    z-index: 9999;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-100px);
+    transition: opacity 0.3s ease, transform 0.8s ease;
+  }
+
+  .whatsapp-float-left i {
+    font-size: 24px;
+  }
+
+  .whatsapp-float-left:hover {
+    background-color: #25D366;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #25D366;
+  }
+
+  .whatsapp-float-left.visible {
+    opacity: 1;
+    transform: translateY(0);
+    bottom: 25px;
+    pointer-events: auto;
+    animation: pulseBounce 2s ease-in-out infinite;
+  }
+
+  @keyframes pulseBounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .whatsapp-float-left {
+      width: 50px;
+      height: 50px;
+      left: 15px;
+    }
+  }
+</style>
+
+<!-- ✅ JS: Show after scrolling 300px -->
+<script>
+  const waBtn = document.getElementById('whatsappButton');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+      waBtn.classList.add('visible');
+    } else {
+      waBtn.classList.remove('visible');
+    }
+  });
+</script>
+
+<!-- ✅ FONT AWESOME -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS -->
+<script src="script.js"></script>
+<script src="expertise.js"></script>
+  <script src="script.js"></script>
+
+ <!-- External CSS -->
+  <link rel="stylesheet" href="bridal.css">
+
+</body>
+</html>
